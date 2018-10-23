@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="icon" th:href="@{/favicon_heladeria.png}" />
+
+    <link rel="stylesheet" th:href="@{/vendor/materialize/css/materialize.css}" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" th:href="@{/app.css}" />
+
+    <title>Copito de Nieve | Home</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="container">
+                <a th:href="@{/}" class="brand-logo">Heladeria</a>
+                <a href="#" data-activates="mobile-nav" class="button-collapse right"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="active"><a th:href="@{/}">Home</a></li>
+                    <li><a th:href="@{/helados}">Helados</a></li>
+                    <li><a th:href="@{/ingresar}">Ingresar</a></li>
+                </ul>
+                <ul id="mobile-nav" class="side-nav">
+                    <li class="active"><a th:href="@{/}">Home</a></li>
+                    <li><a th:href="@{/helados}">Helados</a></li>
+                    <li><a th:href="@{/ingresar}">Ingresar</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="search-bar container">
+        <div class="row">
+            <div class="col s12">
+                <form action="#" method="get">
+                    <div class="input-field">
+                        <input name="q" type="search" placeholder="Buscar todos los helados..." required="required" autocomplete="off"/>
+                        <i class="material-icons">search</i>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="mid-title">Nuestros Helados</h2>
+    </div>
+
+    <!-- Contenedor de Gustos de Helado -->
+    <div class="helados container">
+        <div class="row">
+            <div class="col s12 l4">
+                <a id="img-choco" href="#chocolateModal">
+                <img class="tastes" th:src="@{/images/chocolate.png}" />
+                </a>
+                <span class="taste-name">CHOCOLATES</span>
+            </div>
+            <div class="col s12 l4">
+                <a id="img-cremas" href="#cremaModal">
+                <img class="tastes" th:src="@{/images/crema.png}" />
+                </a>
+                <span class="taste-name">CREMAS</span>
+            </div>
+            <div class="col s12 l4">
+                <a id="img-dulceDeLeche" href="#dulceDeLecheModal">
+                <!-- NO accede directamente al atributo (Helado.tipo) sino que llama al getter del objeto (getName de Helado) para darle valor a la expresión -->
+                <img class="tastes" th:src="@{'/images/' + ${helado.tipo} + '.png'}" />
+                </a>
+                <span class="taste-name">DULCE DE LECHES</span>
+            </div>
+            <div class="col s12 l4">
+                <a id="img-frutales" href="#frutalesModal">
+                <img class="tastes" th:src="@{/images/frutales.png}" />
+                </a>
+                <span class="taste-name">FRUTALES</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modales -->
+    <div id="chocolateModal" class="modal">
+        <div>
+            <div class="modal-content">
+                <h4 class="modal-title">Chocolates</h4>
+            </div>
+        </div>
+    </div>
+    <div id="cremaModal" class="modal">
+        <div>
+            <div class="modal-content">
+                <h4 class="modal-title">Cremas</h4>
+            </div>
+        </div>
+    </div>
+    <div id="dulceDeLecheModal" class="modal">
+        <div>
+            <div class="modal-content">
+                <h4 class="modal-title">Dulces de Leche</h4>
+            </div>
+        </div>
+    </div>
+    <div id="frutalesModal" class="modal">
+        <div>
+            <div class="modal-content">
+                <h4 class="modal-title">Frutales</h4>
+            </div>
+        </div>
+    </div>
+
+    <script th:src="@{/vendor/jquery/jquery-1.11.3.js}"></script>
+    <script th:src="@{/vendor/materialize/js/materialize.js}"></script>
+    <script th:src="@{/app.js}"></script>
+</body>
+</html>

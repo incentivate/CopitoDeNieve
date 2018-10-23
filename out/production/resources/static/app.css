@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+body {
+    font-family: 'varela round', sans-serif;
+}
+
+nav {
+    background-color: #896bb3;
+    box-shadow: none;
+}
+
+nav .brand-logo, nav ul li.active a {
+    color: #fefefe;
+}
+
+nav ul li a {
+    font-size: 1.1rem;
+}
+
+nav ul li a, nav .brand-logo span {
+    color: #d6c5ec;
+}
+
+nav ul li.active, nav ul li:hover {
+    background-color: inherit;
+}
+
+#mobile-nav, #mobile-nav li.active, #mobile-nav li:hover {
+    background-color: #37333d;
+}
+
+#mobile-nav li a {
+    font-size: 1.3rem;
+    color: #906fbc;
+}
+
+#mobile-nav li.active a {
+    color: #fff;
+}
+
+#mobile-nav li {
+    border-bottom: 1px solid #27252b;
+}
+
+.search-bar .col {
+    padding: 0;
+}
+
+.search-bar .input-field {
+    background-color: #f7f5fa;
+}
+
+.search-bar .input-field {
+    border: 1px solid #dad7de;
+    border-radius: 4px;
+}
+
+.search-bar .input-field input {
+    border: none;
+    margin: 0;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.search-bar .input-field input:focus {
+    background-color: transparent;
+}
+
+.search-bar .input-field input ~ .material-icons, .search-bar .input-field input:focus ~ .material-icons {
+    top: 0.5rem;
+    color: #896bb3;
+}
+
+::-webkit-input-placeholder {
+    color: #a29fa6;
+}
+
+.search-bar .input-field input, .search-bar .input-field input:focus {
+    color: #757378;
+}
+
+.helados.container .col:nth-child(3n+1) {
+    padding-left: 0;
+}
+
+.helados.container .col:nth-child(3n+3) {
+    padding-right: 0;
+}
+
+.helados img {
+    height: 220px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.col {
+    margin-bottom: 0.75rem;
+    position: relative;
+}
+
+.container .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+#sidenav-overlay {
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        left: 0;
+        -webkit-transform: none;
+        transform: none;
+        position: static;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .helados.container {
+        padding: 0;
+    }
+
+    .helados.container .col {
+        padding: 0 0.75rem !important;
+    }
+
+    .col {
+        padding-right: 0;
+    }
+
+    .navbar-fixed .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .search-bar .input-field {
+        margin-top: 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    .search-bar .input-field input {
+        height: 4rem;
+        padding-left: 1.5rem;
+    }
+
+    .search-bar .input-field input ~ .material-icons, .search-bar .input-field input:focus ~ .material-icons {
+        top: 1rem;
+        right: 1.8rem;
+    }
+
+    .helados {
+        padding: 0 1.5rem;
+    }
+    .helados img {
+        box-sizing: border-box;
+    }
+}
+
+.mid-title{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38pt;
+    color: #000;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
+
+.desc{
+    text-align:center;
+}
+
+.product-name{
+    text-align:center;
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.tastes{
+  display: block;
+  position: relative;
+  width: 300px;
+}
+
+.taste-name{
+     display: block;
+     position: absolute;
+     text-align: center;
+     top: 0;
+     padding: 5px;
+     width: 100%;
+     font-weight: bold;
+     text-size: 15px;
+}
+
+.modal-title{
+    text-align: center;
+    background-color: #D1B091;
+    width: 100%;
+}
