@@ -3,10 +3,12 @@ plugins {
     id 'idea'
     id 'eclipse'
     id 'org.springframework.boot' version '1.4.3.RELEASE'
+    id 'application'
 }
 
 group 'com.ProyectoSpring'
 version '1.0-SNAPSHOT'
+mainClassName = "com.uces.CopitoDeNieve.AppConfig"
 
 sourceCompatibility = 1.8
 
