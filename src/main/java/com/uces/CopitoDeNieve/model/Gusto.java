@@ -1,10 +1,23 @@
 package com.uces.CopitoDeNieve.model;
 
+import javax.persistence.*;
+
+@Entity // opcional (name="") ---> Si se usa la tabla llevará el nombre especificado
 public class Gusto {
 
+    @Id // hace que el atributo sea clave primaria
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @Column
     private String sabor;
+
+    @Column // opcional (name="")
     private String nombre;
+
+    public Gusto(){
+
+    }
 
     public Gusto(int id, String sabor, String nombre) {
         this.id = id;
@@ -36,6 +49,8 @@ public class Gusto {
         this.nombre = nombre;
     }
 
-
-
+    @Override
+    public String toString(){
+        return this.id + " " + this.sabor + " " + this.nombre ;
+    }
 }

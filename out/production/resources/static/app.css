@@ -210,4 +210,21 @@ nav ul li.active, nav ul li:hover {
     text-align: center;
     background-color: #D1B091;
     width: 100%;
+    padding: 10px;
 }
+
+.flavour{
+    font-size: 1.2vw;
+    line-height: 15px;
+    border-bottom: 1px solid darkgrey;
+    padding: 10px;
+}
+
+/* SACAR CUANDO LA PAGINA /INGRESAR DEJE DE ESTAR EN CONSTRUCCION */
+
+#div-const{
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* -------------------------------------------------------------- */

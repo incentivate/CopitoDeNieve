@@ -210,6 +210,7 @@ nav ul li.active, nav ul li:hover {
     text-align: center;
     background-color: #D1B091;
     width: 100%;
+    padding: 10px;
 }
 
 .flavour{
