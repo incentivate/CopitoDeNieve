@@ -1,15 +1,36 @@
 package com.uces.CopitoDeNieve.model;
 
-public class Helado {
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import java.util.List;
 
+@Entity
+public class Helado {
+    @Id
+    private int id;
     private String tipo;
-    private int idGusto;
+    @OneToMany
+    private List<Gusto> gustos;
     private int precio;
 
-    public Helado(String tipo, int idGusto, int precio) {
+    public Helado(){
+
+    }
+
+    public Helado(int id, String tipo, List<Gusto> gustos, int precio) {
+        this.id = id;
         this.tipo = tipo;
-        this.idGusto = idGusto;
+        this.gustos = gustos;
         this.precio = precio;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getTipo() {
@@ -20,12 +41,12 @@ public class Helado {
         this.tipo = tipo;
     }
 
-    public int getIdGusto() {
-        return idGusto;
+    public List<Gusto> getGustos() {
+        return gustos;
     }
 
-    public void setIdGusto(int idGusto) {
-        this.idGusto = idGusto;
+    public void setGustos(List<Gusto> gustos) {
+        this.gustos = gustos;
     }
 
     public int getPrecio() {
@@ -35,9 +56,4 @@ public class Helado {
     public void setPrecio(int precio) {
         this.precio = precio;
     }
-
-
-
-
-
 }

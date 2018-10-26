@@ -84,7 +84,7 @@
         <div>
             <div class="modal-content">
                 <h4 class="modal-title">Chocolates</h4>
-                <p class="flavour" th:each="gusto : ${gustos}" th:if="${gusto.id == 3}" th:text="${gusto.nombre}"></p>
+                <p class="flavour" th:each="gusto : ${gustos}" th:if="${gusto.idCategoria == 3}" th:text="${gusto.nombre}"></p>
             </div>
         </div>
     </div>
@@ -92,7 +92,7 @@
         <div>
             <div class="modal-content">
                 <h4 class="modal-title">Cremas</h4>
-                <p class="flavour" th:each="gusto : ${gustos}" th:if="${gusto.id == 2}" th:text="${gusto.nombre}"></p>
+                <p class="flavour" th:each="gusto : ${gustos}" th:if="${gusto.idCategoria == 2}" th:text="${gusto.nombre}"></p>
             </div>
         </div>
     </div>
@@ -100,7 +100,7 @@
         <div>
             <div class="modal-content">
                 <h4 class="modal-title">Dulces de Leche</h4>
-                <p class="flavour" th:each="gusto : ${gustos}" th:if="${gusto.id == 1}" th:text="${gusto.nombre}"></p>
+                <p class="flavour" th:each="gusto : ${gustos}" th:if="${gusto.idCategoria == 1}" th:text="${gusto.nombre}"></p>
             </div>
         </div>
     </div>
@@ -108,7 +108,7 @@
         <div>
             <div class="modal-content">
                 <h4 class="modal-title">Frutales</h4>
-                <p class="flavour" th:each="gusto : ${gustos}" th:if="${gusto.id == 4}" th:text="${gusto.nombre}"></p>
+                <p class="flavour" th:each="gusto : ${gustos}" th:if="${gusto.idCategoria == 4}" th:text="${gusto.nombre}"></p>
             </div>
         </div>
     </div>

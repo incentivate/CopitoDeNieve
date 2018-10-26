@@ -29,3 +29,23 @@ $(function(){
     var modal = M.Modal.init(element, {});
     modal.open();
 });
+
+
+// -------------------------------- FORM.HTML ------------------------------------------------
+
+// Borrar si no anda !
+$('#categorias').on('change', () => {
+    var value = $('#categorias').val();
+    if(value === "Dulces de Leche") {
+        $('#idCategoria').val(1);
+    }
+    else if(value === "Cremas") {
+        $('#idCategoria').val(2);
+    }
+    else if(value === "Chocolates") {
+        $('#idCategoria').val(3);
+    }
+    if(value === "Frutales") {
+        $('#idCategoria').val(4);
+    }
+});

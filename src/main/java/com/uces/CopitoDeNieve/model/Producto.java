@@ -1,15 +1,29 @@
 package com.uces.CopitoDeNieve.model;
 
-public class Producto {
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+@Entity
+public class Producto {
+    @Id
+    private int id;
     private String nombre;
     private int cantidadGustos;
     private String descripcion;
 
-    public Producto(String nombre, int cantidadGustos, String descripcion) {
+    public Producto(int id, String nombre, int cantidadGustos, String descripcion) {
+        this.id = id;
         this.nombre = nombre;
         this.cantidadGustos = cantidadGustos;
         this.descripcion = descripcion;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {

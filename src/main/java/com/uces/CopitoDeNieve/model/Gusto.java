@@ -2,7 +2,7 @@ package com.uces.CopitoDeNieve.model;
 
 import javax.persistence.*;
 
-@Entity // opcional (name="") ---> Si se usa la tabla llevará el nombre especificado
+@Entity // opcional (name="") ---> Si se usaz la tabla llevará el nombre especificado
 public class Gusto {
 
     @Id // hace que el atributo sea clave primaria
@@ -10,7 +10,10 @@ public class Gusto {
     private int id;
 
     @Column
-    private String sabor;
+    private Integer idCategoria;
+
+    @Column
+    private String categoria;
 
     @Column // opcional (name="")
     private String nombre;
@@ -19,9 +22,11 @@ public class Gusto {
 
     }
 
-    public Gusto(int id, String sabor, String nombre) {
+    // 1) Dulce de leche      2) Cremas       3) Chocolates      4) Frutales
+    public Gusto(int id, int idCategoria, String categoria, String nombre) {
         this.id = id;
-        this.sabor = sabor;
+        this.idCategoria = idCategoria;
+        this.categoria = categoria;
         this.nombre = nombre;
     }
 
@@ -33,12 +38,20 @@ public class Gusto {
         this.id = id;
     }
 
-    public String getSabor() {
-        return sabor;
+    public Integer getIdCategoria() {
+        return idCategoria;
     }
 
-    public void setSabor(String sabor) {
-        this.sabor = sabor;
+    public void setIdCategoria(Integer idCategoria) {
+        this.idCategoria = idCategoria;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
     }
 
     public String getNombre() {
@@ -51,6 +64,6 @@ public class Gusto {
 
     @Override
     public String toString(){
-        return this.id + " " + this.sabor + " " + this.nombre ;
+        return this.id + " " + this.categoria + " " + this.nombre ;
     }
 }
