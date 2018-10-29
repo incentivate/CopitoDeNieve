@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" th:href="@{/app.css}" />
+</head>
+<body>
+<div class="container">
+    <form th:action="@{/gustos}" method="post" th:object="${gusto}"> <!-- th:object permite bindear objetos desde el controlador directamente con la vista. Para eso se debe agregar el objeto a un Model y usar el mismo nombre de atributo en ambos lados, en este caso "gusto". (Ver GustoController método formNewGusto()) -->
+        <input type="hidden" th:field="*{id}"/>
+        <div class="row">
+            <div class="col s12">
+                <h2> Agregar Nuevo Gusto</h2>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+            <div class="col s12 l8">
+                <input type="text" th:field="*{nombre}" placeholder="Nombre del gusto"/> <!-- El * (th:field) le dice a ThymeLeaf que el atributo es relativo al objeto especificado como padre del formulario, en este caso "Gusto" -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l8">
+                <!-- TODO: Hacer una clase aparte para hacer esto dinámico -->
+                <input id="idCategoria" th:value="0" th:field="*{idCategoria}" hidden="hidden"/>
+                <select id="categorias" th:field="*{categoria}">
+                    <option value="" disabled="disabled">Categoria</option>
+                    <option value="Dulces de Leche">Dulce de Leche</option>
+                    <option value="Cremas">Cremas</option>
+                    <option value="Chocolates">Chocolates</option>
+                    <option value="Frutales">Frutales</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l8">
+                <button type="submit" class="button">Agregar</button>
+                <a th:href="@{/gustos}" class="button">Cancelar</a>
+            </div>
+        </div>
+    </form>
+    <div class="row delete" th:id="${gusto.id != null}">
+        <div class="col s12 l8">
+            <form th:action="@{|/gustos/${gusto.id}/delete|}" method="post">
+                <button type="submit" class="button">Borrar</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script th:src="@{/vendor/jquery/jquery-1.11.3.js}"></script>
+<script th:src="@{/app.js}"></script>
+</body>
+</html>

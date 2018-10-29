@@ -5,7 +5,7 @@ $(function(){
 
 
 // ----------------------------- MODALES -----------------------------------------------
-
+/*
  document.querySelector('#img-choco').addEventListener('click', () => {
   var element = document.querySelector('#chocolateModal');
     var modal = M.Modal.init(element, {});
@@ -28,4 +28,22 @@ $(function(){
   var element = document.querySelector('#frutalesModal');
     var modal = M.Modal.init(element, {});
     modal.open();
+});*/
+
+
+// Borrar si no anda !
+$('#categorias').on('change', () => {
+    var value = $('#categorias').val();
+    if(value === "Dulces de Leche") {
+        $('#idCategoria').val(1);
+    }
+    else if(value === "Cremas") {
+        $('#idCategoria').val(2);
+    }
+    else if(value === "Chocolates") {
+        $('#idCategoria').val(3);
+    }
+    if(value === "Frutales") {
+        $('#idCategoria').val(4);
+    }
 });

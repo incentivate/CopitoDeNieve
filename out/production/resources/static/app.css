@@ -214,11 +214,34 @@ nav ul li.active, nav ul li:hover {
 }
 
 .flavour{
-    font-size: 1.2vw;
+    font-size: 20px;
     line-height: 15px;
     border-bottom: 1px solid darkgrey;
     padding: 10px;
 }
+
+.divider{
+    margin: 0 0 1.6rem 0;
+}
+
+.button {
+    margin-right: 1rem;
+    display: inline-block;
+    background: #f2f0f5;
+    border-radius: 4px;
+    border: none;
+    color: #a29fa6;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.button[type=submit] {
+    background: #896bb3;
+    color: #fefefe;
+}
+
 
 /* SACAR CUANDO LA PAGINA /INGRESAR DEJE DE ESTAR EN CONSTRUCCION */
 
@@ -228,3 +251,5 @@ nav ul li.active, nav ul li:hover {
 }
 
 /* -------------------------------------------------------------- */
+
+

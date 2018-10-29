@@ -1,52 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c0597db-bee4-467d-8bf0-bb4a87aa601b" name="Default Changelist" comment="Configurada la BD con motor H2">
-      <change afterPath="$PROJECT_DIR$/data/Copito.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/CopitoDeNieve.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/CopitoDeNieve.trace.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h2-1.4.191.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/config/DataConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="2c0597db-bee4-467d-8bf0-bb4a87aa601b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/controller/GustosController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/controller/ProductosController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/data/GustosRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/data/HeladosRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/data/ProductosRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/model/Gusto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/model/Helado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/model/Producto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/CopitoDeNieve-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/CopitoDeNieve-1.0-SNAPSHOT.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/CopitoDeNieve-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/CopitoDeNieve-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/CopitoDeNieve-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/CopitoDeNieve-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/controller/ProductosController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/data/GustosRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/data/HeladosRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/data/ProductosRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/model/Gusto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/model/Helado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/model/Producto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/ProductosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/ProductosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/data/GustosRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/data/HeladosRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/data/ProductosRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Gusto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Gusto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Helado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Helado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/gustos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/gustos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/gustos.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/gustos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Copito.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/Copito.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CopitoDeNieve.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/CopitoDeNieve.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/static/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -103,7 +65,7 @@
     <session id="1426507573">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="2" />
@@ -124,7 +86,7 @@
           <entry key="java" value="78" />
           <entry key="js" value="5" />
           <entry key="png" value="6" />
-          <entry key="properties" value="5" />
+          <entry key="properties" value="6" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -137,7 +99,7 @@
           <entry key="JAVA" value="78" />
           <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="5" />
+          <entry key="Properties" value="6" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -150,7 +112,7 @@
           <entry key="java" value="12008" />
           <entry key="js" value="1082" />
           <entry key="properties" value="546" />
-          <entry key="txt" value="49" />
+          <entry key="txt" value="184" />
           <entry key="xml" value="750" />
         </counts>
       </usages-collector>
@@ -161,7 +123,7 @@
           <entry key="HTML" value="5875" />
           <entry key="JAVA" value="12008" />
           <entry key="JavaScript" value="1082" />
-          <entry key="PLAIN_TEXT" value="86" />
+          <entry key="PLAIN_TEXT" value="221" />
           <entry key="Properties" value="546" />
           <entry key="XML" value="750" />
         </counts>
@@ -257,11 +219,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="480">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -939,7 +910,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540588500333" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540588538433" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1071,7 +1042,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540410646977</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Agregada la funcionalidad para agregar nuevos gustos por front-end y guardarlos en BD !">
+      <created>1540588524485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540588524485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1096,7 +1074,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2751896" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2751896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1105,7 +1083,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32719395" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.26378378" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.26002166" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.25893825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24931206" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1122,7 +1100,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configurada la BD con motor H2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configurada la BD con motor H2" />
+    <MESSAGE value="Agregada la funcionalidad para agregar nuevos gustos por front-end y guardarlos en BD !" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregada la funcionalidad para agregar nuevos gustos por front-end y guardarlos en BD !" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1229,13 +1208,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/data/ProductosRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/data/HeladosRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/data/GustosRepository.java" />
@@ -1291,6 +1263,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1417,8 +1392,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
