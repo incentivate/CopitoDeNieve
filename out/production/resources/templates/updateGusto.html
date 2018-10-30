@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" th:href="@{/app.css}" />
+</head>
+<body>
+<div class="container">
+    <form id="gustosForm" method="put">
+        <div class="row">
+            <div class="col s12">
+                <h2> Modificar Gustos</h2>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+            <label for="selectGusto">Nombre del gusto a cambiar</label>
+            <select name="gustos" id="selectGusto">
+                <option value="-1" selected="selected" disabled="disabled">Lista de Gustos</option>
+                <option th:each="gusto : ${gustos}" th:text="${gusto.nombre}" th:value="${gusto.id}"> </option>
+            </select>
+        </div>
+        <label for="newName">Nuevo Nombre</label>
+        <input type="text" name="newName" id="newName" />
+        <div class="row">
+            <label for="selectCat">Elegir nueva Categoria</label>
+                <select name="newCat" id="selectCat">
+                    <option value="-1" selected="selected" disabled="disabled">Nueva Categoria</option>
+                    <option value="Dulces de Leche">Dulce de Leche</option>
+                    <option value="Cremas">Cremas</option>
+                    <option value="Chocolates">Chocolates</option>
+                    <option value="Frutales">Frutales</option>
+                </select>
+        </div>
+        <button type="submit" id="btn-submit" class="button">Modificar</button>
+    </form>
+</div>
+<script th:src="@{/ABMGustos.js}"></script>
+</body>
+</html>

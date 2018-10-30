@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c0597db-bee4-467d-8bf0-bb4a87aa601b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/controller/GustosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/controller/GustosController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/Copito.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/Copito.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CopitoDeNieve.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/CopitoDeNieve.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -173,7 +163,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/ABMGustos.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="627">
-              <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+              <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -730,7 +720,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="455" />
     <option name="y" value="27" />
     <option name="width" value="1465" />
@@ -870,7 +860,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540932424969" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540932656337" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -901,20 +891,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CopitoDeNieve [bootRun]">
-    <configuration name="AppConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uces.CopitoDeNieve.AppConfig" />
-      <module name="CopitoDeNieve" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.uces.CopitoDeNieve.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.CopitoDeNieve [compileJava]">
     <configuration name="CopitoDeNieve [bootRepackage]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -933,25 +910,7 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="CopitoDeNieve [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="bootRun" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="CopitoDeNieve [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CopitoDeNieve [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -962,7 +921,61 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="CopitoDeNieve [buildNeeded]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildNeeded" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="CopitoDeNieve [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="CopitoDeNieve [distZip]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="distZip" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -970,17 +983,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.CopitoDeNieve [bootRun]" />
-      <item itemvalue="Gradle.CopitoDeNieve [build]" />
-      <item itemvalue="Application.AppConfig" />
       <item itemvalue="Gradle.CopitoDeNieve [bootRepackage]" />
+      <item itemvalue="Gradle.CopitoDeNieve [buildDependents]" />
+      <item itemvalue="Gradle.CopitoDeNieve [buildNeeded]" />
+      <item itemvalue="Gradle.CopitoDeNieve [distZip]" />
+      <item itemvalue="Gradle.CopitoDeNieve [compileJava]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CopitoDeNieve [bootRun]" />
-        <item itemvalue="Gradle.CopitoDeNieve [build]" />
+        <item itemvalue="Gradle.CopitoDeNieve [compileJava]" />
+        <item itemvalue="Gradle.CopitoDeNieve [distZip]" />
+        <item itemvalue="Gradle.CopitoDeNieve [buildNeeded]" />
+        <item itemvalue="Gradle.CopitoDeNieve [buildDependents]" />
         <item itemvalue="Gradle.CopitoDeNieve [bootRepackage]" />
-        <item itemvalue="Application.AppConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -1044,7 +1059,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="455" y="27" width="1465" height="1053" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4962631" visible="true" weight="0.22762509" />
       <window_info id="Structure" order="1" sideWeight="0.5037369" side_tool="true" weight="0.17261519" />
@@ -1055,7 +1069,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21018419" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21018419" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1070,7 +1084,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.6115016" />
+      <window_info active="true" anchor="right" id="Gradle" order="5" visible="true" weight="0.6109937" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3296643" />
@@ -1459,7 +1473,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/ABMGustos.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
-          <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
         </state>
       </provider>
     </entry>

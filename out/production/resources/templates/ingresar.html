@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="icon" th:href="@{/favicon_heladeria.png}" />
+
+    <link rel="stylesheet" th:href="@{/vendor/materialize/css/materialize.css}" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" th:href="@{/app.css}" />
+
+    <title>Copito de Nieve | Ingresar</title>
+</head>
+<body>
+<div class="navbar-fixed">
+    <nav>
+        <div class="container">
+            <a th:href="@{/}" class="brand-logo">Heladeria</a>
+            <a href="#" data-activates="mobile-nav" class="button-collapse right"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li class="active"><a th:href="@{/}">Home</a></li>
+                <li><a th:href="@{/gustos}">Gustos</a></li>
+                <li><a th:href="@{/ingresar}">Ingresar</a></li>
+            </ul>
+            <ul id="mobile-nav" class="side-nav">
+                <li class="active"><a th:href="@{/}">Home</a></li>
+                <li><a th:href="@{/gustos}">Gustos</a></li>
+                <li><a th:href="@{/ingresar}">Ingresar</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<div id="div-const">
+    <img th:src="@{/images/construccion.jpg}" alt="Imagen en Construccion" />
+</div>
+
+</body>
+</html>
