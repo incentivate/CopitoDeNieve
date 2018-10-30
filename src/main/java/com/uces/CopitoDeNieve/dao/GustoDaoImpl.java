@@ -1,13 +1,11 @@
 package com.uces.CopitoDeNieve.dao;
 
 import com.uces.CopitoDeNieve.model.Gusto;
-import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Repository // para que Spring sepa que es una implementación de GustoDao
@@ -62,6 +60,25 @@ public class GustoDaoImpl implements GustoDao {
         // Close the session
         session.close();
     }
+
+     @Override
+     public void update(Gusto gusto){
+     // Open a session
+     Session session = sessionFactory.openSession();
+
+     // Begin a transaction
+     session.beginTransaction();
+
+     // Use the session to update the contact
+     session.update(gusto);
+
+     // Commit the transaction
+     session.getTransaction().commit();
+
+     // Close the session
+     session.close();
+    }
+
 
     @Override
     public void delete(Gusto gusto){

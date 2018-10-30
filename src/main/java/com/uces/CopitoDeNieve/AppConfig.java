@@ -55,55 +55,7 @@ public class AppConfig {
 
     }
 
-//    private static int save(Gusto gusto){
-//
-//        // Open a Session
-//        Session session = sessionFactory.openSession();
-//
-//        // Begin transaction
-//        session.beginTransaction();
-//
-//        // Use the session to save the object
-//        int id = (int)session.save(gusto);
-//
-//        // Commit the transaction
-//        session.getTransaction().commit();
-//
-//        // Close the session
-//        session.close();
-//
-//        return id;
-//    }
-//
-//    @SuppressWarnings("unchecked")
-//    private static List<Gusto> fetchAllGustos(){
-//        // Open a session
-//        Session session = sessionFactory.openSession();
-//
-//        // Create Criteria
-//        Criteria criteria = session.createCriteria(Gusto.class);
-//
-//        // Get a List of Gustos according to the Criteria object
-//        List<Gusto> gustos = criteria.list();
-//
-//        // Close the session
-//        session.close();
-//
-//        return gustos;
-//    }
-//
-//    private static Gusto findGustoById(int id){
-//        // Open a session
-//        Session session = sessionFactory.openSession();
-//
-//        // Retrieve the persistent object (or null if not found)
-//        Gusto gusto = session.get(Gusto.class, id);
-//
-//        // Close the session
-//        session.close();
-//
-//        // Return the object
-//        return gusto;
+
 //    }
 //
 //    private static void update(Gusto gusto){
@@ -122,6 +74,7 @@ public class AppConfig {
 //        // Close the session
 //        session.close();
 //    }
+    
 //
 //    private static void delete(Gusto gusto) {
 //        // Open a session

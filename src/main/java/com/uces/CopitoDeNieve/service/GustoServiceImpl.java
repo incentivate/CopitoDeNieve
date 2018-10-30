@@ -37,6 +37,11 @@ public class GustoServiceImpl implements GustoService {
     }
 
     @Override
+    public void update(Gusto gusto){
+        gustoDao.update(gusto);
+    }
+
+    @Override
     public void delete(Gusto gusto){
         gustoDao.delete(gusto);
     }

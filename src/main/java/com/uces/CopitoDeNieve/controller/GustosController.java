@@ -18,9 +18,10 @@ public class GustosController {
     @Autowired
     private GustoService gustoService; // es quien "habla" con la base de datos
 
+    // Lista los modales de los gustos
     @RequestMapping(value = "/gustos")
     // El ModelMap hace que los Objetos dentro de éste esten disponibles para la vista a renderizar
-    public String listGustos(ModelMap modelMap){
+    public String listAllGustos(ModelMap modelMap){
         List<Gusto> gustos = gustoService.findAll();
         modelMap.put("gustos", gustos);
         return "gustos";
@@ -49,7 +50,15 @@ public class GustosController {
 //        return "gustos";
 //    }
 
-    // Borrar un Gusto
+    // Formulario para agregar un gusto
+    @RequestMapping(value="gustos/add")
+    public String formNewGusto(Model model){
+        // model hace que el gusto y sus atributos estén disponibles para usar en la vista TH con el attributeName correspondiente (parecido a ModelMap)
+        model.addAttribute("gusto", new Gusto());
+        return "addGusto";
+    }
+
+    // Mostrar las opciones de Gustos que hay para borrar
     @RequestMapping(value = "/gustos/delete")
     public String deleteGusto(ModelMap modelMap){
         List<Gusto> allGustos = gustoService.findAll();
@@ -57,23 +66,34 @@ public class GustosController {
         return "deleteGusto";
     }
 
+    // Borrar un Gusto por ID
     @RequestMapping(value = "/gustos/{id}/delete", method = RequestMethod.POST)
     // @PathVariable mapea el {id} del URL con el @PathVariable int id
-    public String deleteGustoId(@PathVariable int id, ModelMap modelMap){
-        System.out.println("Este es el ID del parametro " + id);
+    public String deleteGustoById(@PathVariable int id, ModelMap modelMap){
         Gusto gusto = gustoService.findGustoById(id);
-        System.out.println("Este es el gusto " + gusto.toString());
         modelMap.put("gusto", gusto);
         gustoService.delete(gusto);
         return "redirect:/gustos/delete";
     }
 
-    // Formulario para agregar un gusto
-    @RequestMapping(value="gustos/add")
-    public String formNewGusto(Model model){
-        // model hace que el gusto y sus atributos estén disponibles para usar en la vista TH con el attributeName correspondiente (parecido a ModelMap)
-        model.addAttribute("gusto", new Gusto());
-        return "addGusto";
+    // Actualizar un Gusto por ID
+    @RequestMapping(value = "/gustos/edit")
+    // @PathVariable mapea el {id} del URL con el @PathVariable int id
+    public String updateGusto(ModelMap modelMap){
+        //modelMap.put("gusto", gustoService.findGustoById(id));
+        modelMap.put("gustos", gustoService.findAll());
+        return "updateGusto";
+    }
+
+    // Borrar un Gusto por ID
+    @RequestMapping(value = "/gustos/{id}/edit/{newName}/{newIdCat}", method = RequestMethod.PUT)
+    // @PathVariable mapea el {id} del URL con el @PathVariable int id
+    public String updateGustoById(@PathVariable("id") int id, @PathVariable("newIdCat") int newIdCat, @PathVariable("newName") String newName){
+        Gusto gusto = gustoService.findGustoById(id);
+        gusto.setNombre(newName);
+        gusto.setIdCategoria(newIdCat);
+        gustoService.update(gusto);
+        return "redirect:/gustos/edit";
     }
 
 }

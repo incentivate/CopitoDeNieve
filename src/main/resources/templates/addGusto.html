@@ -39,13 +39,6 @@
             </div>
         </div>
     </form>
-    <div class="row delete" th:id="${gusto.id != null}">
-        <div class="col s12 l8">
-            <form th:action="@{|/gustos/${gusto.id}/delete|}" method="post">
-                <button type="submit" class="button">Borrar</button>
-            </form>
-        </div>
-    </div>
 </div>
 <script th:src="@{/vendor/jquery/jquery-1.11.3.js}"></script>
 <script th:src="@{/ABMGustos.js}"></script>
