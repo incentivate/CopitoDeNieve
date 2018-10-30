@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c0597db-bee4-467d-8bf0-bb4a87aa601b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/controller/GustosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/controller/GustosController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/Copito.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/Copito.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CopitoDeNieve.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/CopitoDeNieve.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addGusto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addGusto.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -87,8 +89,8 @@
           <entry key="db" value="1" />
           <entry key="gradle" value="5" />
           <entry key="gradlew" value="1" />
-          <entry key="html" value="32" />
-          <entry key="java" value="129" />
+          <entry key="html" value="37" />
+          <entry key="java" value="131" />
           <entry key="js" value="8" />
           <entry key="png" value="6" />
           <entry key="properties" value="6" />
@@ -99,9 +101,9 @@
         <counts>
           <entry key="CSS" value="8" />
           <entry key="Groovy" value="5" />
-          <entry key="HTML" value="32" />
+          <entry key="HTML" value="37" />
           <entry key="Image" value="6" />
-          <entry key="JAVA" value="129" />
+          <entry key="JAVA" value="131" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="6" />
@@ -113,11 +115,11 @@
           <entry key="css" value="1323" />
           <entry key="dummy" value="40" />
           <entry key="gradle" value="573" />
-          <entry key="html" value="8422" />
-          <entry key="java" value="14642" />
-          <entry key="js" value="2181" />
+          <entry key="html" value="8458" />
+          <entry key="java" value="14714" />
+          <entry key="js" value="2530" />
           <entry key="properties" value="546" />
-          <entry key="txt" value="201" />
+          <entry key="txt" value="253" />
           <entry key="xml" value="750" />
         </counts>
       </usages-collector>
@@ -125,10 +127,10 @@
         <counts>
           <entry key="CSS" value="1323" />
           <entry key="Groovy" value="573" />
-          <entry key="HTML" value="8422" />
-          <entry key="JAVA" value="14642" />
-          <entry key="JavaScript" value="2181" />
-          <entry key="PLAIN_TEXT" value="241" />
+          <entry key="HTML" value="8458" />
+          <entry key="JAVA" value="14714" />
+          <entry key="JavaScript" value="2530" />
+          <entry key="PLAIN_TEXT" value="293" />
           <entry key="Properties" value="546" />
           <entry key="XML" value="750" />
         </counts>
@@ -137,44 +139,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+            <state relative-caret-position="572">
+              <caret line="95" column="39" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addGusto.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/deleteGusto.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="43" selection-start-line="22" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -182,17 +154,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateGusto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="375">
+              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addGusto.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/ABMGustos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="58" column="88" selection-start-line="58" selection-start-column="88" selection-end-line="58" selection-end-column="88" />
+            <state relative-caret-position="627">
+              <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -730,15 +711,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/addGusto.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/deleteGusto.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/addGusto.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/ABMGustos.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/ABMGustos.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/addGusto.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/updateGusto.html" />
       </list>
     </option>
@@ -749,10 +730,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="229" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="455" />
     <option name="y" value="27" />
-    <option name="width" value="1691" />
+    <option name="width" value="1465" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -889,7 +870,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540925851405" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540932424969" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1042,7 +1023,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540919624629</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Agregado el Update de Gustos (falta corregir)">
+      <created>1540925947662</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540925947662</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1055,10 +1043,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="229" y="27" width="1691" height="1053" extended-state="0" />
+    <frame x="455" y="27" width="1465" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4962631" visible="true" weight="0.19635259" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4962631" visible="true" weight="0.22762509" />
       <window_info id="Structure" order="1" sideWeight="0.5037369" side_tool="true" weight="0.17261519" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1131,7 +1119,8 @@
     <MESSAGE value="Configurada la BD con motor H2" />
     <MESSAGE value="Agregada la funcionalidad para agregar nuevos gustos por front-end y guardarlos en BD !" />
     <MESSAGE value="ABM Gustos con BD" />
-    <option name="LAST_COMMIT_MESSAGE" value="ABM Gustos con BD" />
+    <MESSAGE value="Agregado el Update de Gustos (falta corregir)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregado el Update de Gustos (falta corregir)" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1387,30 +1376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1428,51 +1393,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addGusto.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="497">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/deleteGusto.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="43" selection-start-line="22" selection-end-line="23" />
+        <state relative-caret-position="587">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+        <state relative-caret-position="512">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/ABMGustos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="58" column="88" selection-start-line="58" selection-start-column="88" selection-end-line="58" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateGusto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="572">
+          <caret line="95" column="39" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/deleteGusto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addGusto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateGusto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/ABMGustos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
         </state>
       </provider>
     </entry>

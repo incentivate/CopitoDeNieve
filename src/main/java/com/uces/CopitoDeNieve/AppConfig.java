@@ -19,13 +19,13 @@ public class AppConfig {
 
     private static final SessionFactory sessionFactory = buildSessionFactory();
 
-    private static SessionFactory buildSessionFactory(){
+    private static SessionFactory buildSessionFactory() {
         // Create a StandardServiceRegistry
         final ServiceRegistry registry = new StandardServiceRegistryBuilder().configure().build();
         return new MetadataSources(registry).buildMetadata().buildSessionFactory();
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         SpringApplication.run(AppConfig.class, args);
 
 //        Gusto gusto = new Gusto(1, "Dulce de Leche", "Dulce de leche comun");
@@ -52,12 +52,9 @@ public class AppConfig {
 //        // Delete the contact
 //        delete(g);
 //        fetchAllGustos().stream().forEach(System.out::println);
-
-    }
-
-
-//    }
 //
+
+
 //    private static void update(Gusto gusto){
 //        // Open a session
 //        Session session = sessionFactory.openSession();
@@ -74,23 +71,9 @@ public class AppConfig {
 //        // Close the session
 //        session.close();
 //    }
-    
-//
-//    private static void delete(Gusto gusto) {
-//        // Open a session
-//        Session session = sessionFactory.openSession();
-//
-//        // Begin a transaction
-//        session.beginTransaction();
-//
-//        // Use the session to update the contact
-//        session.delete(gusto);
-//
-//        // Commit the transaction
-//        session.getTransaction().commit();
-//
-//        // Close the session
-//        session.close();
-//    }
 
+    }
 }
+
+
+
