@@ -242,6 +242,9 @@ nav ul li.active, nav ul li:hover {
     color: #fefefe;
 }
 
+.warning {
+  color: #ff0000;
+}
 
 /* SACAR CUANDO LA PAGINA /INGRESAR DEJE DE ESTAR EN CONSTRUCCION */
 

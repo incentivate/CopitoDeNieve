@@ -15,7 +15,7 @@
         <div class="divider"></div>
         <div class="row">
             <div class="col s12 l8">
-                <input type="text" th:field="*{nombre}" placeholder="Nombre del gusto"/> <!-- El * (th:field) le dice a ThymeLeaf que el atributo es relativo al objeto especificado como padre del formulario, en este caso "Gusto" -->
+                <input id="gustoNombre" type="text" th:field="*{nombre}" placeholder="Nombre del gusto"/> <!-- El * (th:field) le dice a ThymeLeaf que el atributo es relativo al objeto especificado como padre del formulario, en este caso "Gusto" -->
             </div>
         </div>
         <div class="row">
@@ -33,6 +33,7 @@
         </div>
         <div class="row">
             <div class="col s12 l8">
+                <p class="warning">Debe completar todos los campos</p>
                 <button type="submit" class="button">Agregar</button>
                 <a th:href="@{/gustos}" class="button">Cancelar</a>
             </div>
@@ -47,6 +48,6 @@
     </div>
 </div>
 <script th:src="@{/vendor/jquery/jquery-1.11.3.js}"></script>
-<script th:src="@{/app.js}"></script>
+<script th:src="@{/ABMGustos.js}"></script>
 </body>
 </html>

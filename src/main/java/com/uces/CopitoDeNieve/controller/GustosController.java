@@ -27,10 +27,13 @@ public class GustosController {
     }
 
     // Agregar un gusto (ADMIN)
-    @RequestMapping(value = "/gustos", method = RequestMethod.POST) public String addGusto(@ModelAttribute("gusto") Gusto gusto){ gustoService.save(gusto); return "redirect:/gustos"; }
+    @RequestMapping(value = "/gustos", method = RequestMethod.POST)
+    public String addGusto(@ModelAttribute("gusto") Gusto gusto){
+        gustoService.save(gusto);
+        return "redirect:/gustos";
+    }
 
     @RequestMapping(value = "/gustos/{id}")
-    // El ModelMap hace que los Objetos dentro de éste esten disponibles para la vista a renderizar
     public String findGustoById(@PathVariable int id, ModelMap modelMap){
         Gusto gusto = gustoService.findGustoById(id);
         modelMap.put("gusto", gusto);
@@ -47,10 +50,22 @@ public class GustosController {
 //    }
 
     // Borrar un Gusto
-    @RequestMapping(value = "/gustos/{id}/delete", method = RequestMethod.DELETE)
-    public String deleteGusto(Gusto gusto){
+    @RequestMapping(value = "/gustos/delete")
+    public String deleteGusto(ModelMap modelMap){
+        List<Gusto> allGustos = gustoService.findAll();
+        modelMap.put("gustos", allGustos);
+        return "deleteGusto";
+    }
+
+    @RequestMapping(value = "/gustos/{id}/delete", method = RequestMethod.POST)
+    // @PathVariable mapea el {id} del URL con el @PathVariable int id
+    public String deleteGustoId(@PathVariable int id, ModelMap modelMap){
+        System.out.println("Este es el ID del parametro " + id);
+        Gusto gusto = gustoService.findGustoById(id);
+        System.out.println("Este es el gusto " + gusto.toString());
+        modelMap.put("gusto", gusto);
         gustoService.delete(gusto);
-        return "redirect:/gustos";
+        return "redirect:/gustos/delete";
     }
 
     // Formulario para agregar un gusto
@@ -58,7 +73,7 @@ public class GustosController {
     public String formNewGusto(Model model){
         // model hace que el gusto y sus atributos estén disponibles para usar en la vista TH con el attributeName correspondiente (parecido a ModelMap)
         model.addAttribute("gusto", new Gusto());
-        return "form";
+        return "addGusto";
     }
 
 }

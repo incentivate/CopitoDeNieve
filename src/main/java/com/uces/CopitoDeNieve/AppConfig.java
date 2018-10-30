@@ -46,7 +46,7 @@ public class AppConfig {
 //        // Display a list of contacts after the update
 //        fetchAllGustos().stream().forEach(System.out::println);
 //
-//        // Get the contact with id of 1
+//        // Get the contact with id of 14
 //        g = findGustoById(14);
 //
 //        // Delete the contact

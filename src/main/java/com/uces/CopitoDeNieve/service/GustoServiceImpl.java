@@ -21,13 +21,14 @@ public class GustoServiceImpl implements GustoService {
 
     @Override
     public Gusto findGustoById(int id){
+
         return gustoDao.findGustoById(id);
     }
 
     @Override
     public List<Gusto> findByIdCategoria(int idCategoria){
 
-        return null;
+        return gustoDao.findByIdCategoria(idCategoria);
     }
 
     @Override

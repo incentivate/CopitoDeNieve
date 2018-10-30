@@ -1,6 +1,7 @@
 package com.uces.CopitoDeNieve.controller;
 
 import com.uces.CopitoDeNieve.model.Producto;
+import com.uces.CopitoDeNieve.service.ProductoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -11,11 +12,13 @@ import java.util.List;
 
 @Controller
 public class ProductosController {
+    @Autowired
+    private ProductoService productoService;
 
     @RequestMapping(value = "/")
     public String getAllProductos(ModelMap modelMap){
-        List<Producto> allProductos = new ArrayList<>();
-        modelMap.put("productos", allProductos);
+        List<Producto> productos = productoService.findAll();
+        modelMap.put("productos", productos);
         return "home";
     }
 
