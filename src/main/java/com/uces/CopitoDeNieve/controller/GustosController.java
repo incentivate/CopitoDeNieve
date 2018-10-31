@@ -6,10 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -86,12 +83,24 @@ public class GustosController {
     }
 
     // Borrar un Gusto por ID
-    @RequestMapping(value = "/gustos/{id}/edit/{newName}/{newIdCat}", method = RequestMethod.PUT)
+    @RequestMapping(value = "/gustos/edit", method=RequestMethod.POST)
     // @PathVariable mapea el {id} del URL con el @PathVariable int id
-    public String updateGustoById(@PathVariable("id") int id, @PathVariable("newIdCat") int newIdCat, @PathVariable("newName") String newName){
+    public String updateGustoById(@RequestParam(value="gustos") int id, @RequestParam(value="newCat") String catNombre, @RequestParam(value="newName") String newName){
         Gusto gusto = gustoService.findGustoById(id);
         gusto.setNombre(newName);
-        gusto.setIdCategoria(newIdCat);
+        if(catNombre.equals("Dulces de Leche")){
+            gusto.setIdCategoria(1);
+        }
+        else if(catNombre.equals("Cremas")){
+            gusto.setIdCategoria(2);
+        }
+        else if(catNombre.equals("Chocolates")){
+            gusto.setIdCategoria(3);
+        }
+        if(catNombre.equals("Frutales")){
+            gusto.setIdCategoria(4);
+        }
+        gusto.setCategoria(catNombre);
         gustoService.update(gusto);
         return "redirect:/gustos/edit";
     }

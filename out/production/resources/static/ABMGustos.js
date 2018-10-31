@@ -45,8 +45,24 @@ $('form').on('submit', function(e){
    var idGusto;
    var newName;
 
-   $('#selectCat').on('change', function() {
-   newCatId = $(this).val();
+   $('#selectCat').on('change', () => {
+        var value = $('#selectCat').val();
+        if(value === "Dulces de Leche") {
+            newCatId = 1;
+        }
+        else if(value === "Cremas") {
+            newCatId = 2;
+        }
+        else if(value === "Chocolates") {
+            newCatId = 3;
+        }
+        if(value === "Frutales") {
+            newCatId = 4;
+        }
+
+        console.log('newCatId: ' + newCatId);
+        console.log('idGusto ' + idGusto);
+        console.log('newName: ' + newName);
  });
 
     $('#selectGusto').on('change', function() {
@@ -55,7 +71,9 @@ $('form').on('submit', function(e){
 
     newName = $('#newName').val();
 
- $('#btn-submit').on('submit', () => {
-    $('#gustosForm').attr('action', idGusto + '/edit' + '/' + newName + '/' + catValue);
+ $('#btn-submit').on('click', (e) => {
+    e.preventDefault();
+    var url = idGusto + " '/edit' + '/' "+ newName + '/' + newCatId;
+    $('#formUpdate').attr('action', url);
  });
 
