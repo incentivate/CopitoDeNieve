@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="icon" th:href="@{/favicon_heladeria.png}" />
+    <link rel="stylesheet" th:href="@{/app.css}" />
+
+    <title>Copito de Nieve | Pedido</title>
+</head>
+<body>
+    <h1 id="prodTitle">Confirme su pedido</h1>
+
+    <form id="formPedidoo" method="post" th:action="@{/mail}">
+        <div id="tipoProducto" th:switch="${tipoProducto}">
+            <p th:case="'vasito'">Vasito</p>
+            <p th:case="'cucurucho'">Cucurucho</p>
+            <p th:case="'cuarto'">Cuarto</p>
+            <p th:case="'medio'">Medio</p>
+            <p th:case="'kilo'">Kilo</p>
+        </div>
+
+        <p th:each="seleccionado : ${seleccionados}" th:text="${seleccionado.nombre}"></p>
+
+        <button id="btnAceptar" type="submit">ENVIAR PEDIDO</button>
+        <button id="btnCancelar" type="button">CANCELAR PEDIDO</button>
+    </form>
+
+    <script th:src="@{/vendor/jquery/jquery-1.11.3.js}"></script>
+    <script th:src="@{/home.js}"></script>
+</body>
+</html>
