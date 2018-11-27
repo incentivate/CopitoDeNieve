@@ -8,7 +8,7 @@ public interface ProductoService {
 
     List<Producto> findAll();
     Producto findProductoById(int id);
-    List<Producto> findProductoByName(String name);
+    List<Producto> findAllProductosByName(String name);
     void save(Producto producto);
     void delete(Producto producto);
 

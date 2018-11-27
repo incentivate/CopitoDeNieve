@@ -10,6 +10,7 @@ import java.util.List;
 
 @Repository // para que Spring sepa que es una implementación de GustoDao
 public class GustoDaoImpl implements GustoDao {
+    
     @Autowired
     private SessionFactory sessionFactory;
 

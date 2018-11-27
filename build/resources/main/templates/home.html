@@ -49,15 +49,109 @@
     <div class="helados container">
         <div class="row">
             <div th:each="producto : ${productos}" class="col s12 l4">
-                <img th:src="@{'/images/' + ${producto.nombre} +'.png'}" />
+                <img class="prod-img" th:src="@{'/images/' + ${producto.nombre} +'.png'}" />
                 <p class="product-name" th:text="${producto.nombre}"></p>
                 <p class="desc" th:text="${producto.descripcion}"></p>
+            </div>
+        </div>
+    </div>
+    <!-- Modales -->
+    <div id="vasoModal" class="modal">
+        <div class="modal-content">
+            <h4 class="modal-title">Vasito</h4>
+            <h6>Seleccione hasta dos gustos</h6>
+            <form id="vasitoForm" method="post">
+                <table class="tabla">
+                        <tr th:each="gusto : ${gustos}">
+                            <td class="flavour" th:text="${gusto.nombre}"></td>
+                            <td><input class="single-checkbox" type="checkbox" th:value="${gusto.id}" name="box"/></td>
+                            <input type="hidden" id="formVasito" value="vasito" />
+                        </tr>
+                </table>
+                <p id="errorModalVasito"></p>
+                <button type="submit" class="btn-submit">Enviar Pedido</button>
+            </form>
+        </div>
+    </div>
+    <div id="cucuModal" class="modal">
+        <div>
+            <div class="modal-content">
+                <h4 class="modal-title">Cucurucho</h4>
+                <h6>Seleccione hasta dos gustos</h6>
+                <form id="cucuForm" method="post">
+                    <table class="tabla">
+                        <tr th:each="gusto : ${gustos}">
+                            <td class="flavour" th:text="${gusto.nombre}"></td>
+                            <td><input class="single-checkbox" type="checkbox" th:value="${gusto.id}" name="box"/></td>
+                            <input type="hidden" id="formCucu" value="cucurucho" />
+                        </tr>
+                    </table>
+                    <p id="errorModalCucu"></p>
+                    <button type="submit" class="btn-submit">Enviar Pedido</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="cuartoModal" class="modal">
+        <div>
+            <div class="modal-content">
+                <h4 class="modal-title">1/4 Kilo</h4>
+                <h6>Seleccione hasta dos gustos</h6>
+                <form id="cuartoForm" method="post">
+                    <table class="tabla">
+                        <tr th:each="gusto : ${gustos}">
+                            <td class="flavour" th:text="${gusto.nombre}"></td>
+                            <td><input class="single-checkbox" type="checkbox" th:value="${gusto.id}" name="box"/></td>
+                            <input type="hidden" id="formCuarto" value="cuarto" />
+                        </tr>
+                    </table>
+                    <p id="errorModalCuarto"></p>
+                    <button type="submit" class="btn-submit">Enviar Pedido</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="medioModal" class="modal">
+        <div>
+            <div class="modal-content">
+                <h4 class="modal-title">1/2 Kilo</h4>
+                <h6>Seleccione hasta tres gustos</h6>
+                <form id="medioForm" method="post">
+                    <table class="tabla">
+                        <tr th:each="gusto : ${gustos}">
+                            <td class="flavour" th:text="${gusto.nombre}"></td>
+                            <td><input class="single-checkbox" type="checkbox" th:value="${gusto.id}" name="box"/></td>
+                            <input type="hidden" id="formMedio" value="medio" />
+                        </tr>
+                    </table>
+                    <p id="errorModalMedio"></p>
+                    <button type="submit" class="btn-submit">Enviar Pedido</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="kiloModal" class="modal">
+        <div>
+            <div class="modal-content">
+                <h4 class="modal-title">1 Kilo</h4>
+                <h6>Seleccione hasta cuatro gustos</h6>
+                <form id="kiloForm" method="post">
+                    <table class="tabla">
+                        <tr th:each="gusto : ${gustos}">
+                            <td class="flavour" th:text="${gusto.nombre}"></td>
+                            <td><input class="single-checkbox" type="checkbox" th:value="${gusto.id}" name="box"/></td>
+                            <input type="hidden" id="formKilo" value="kilo" />
+                        </tr>
+                    </table>
+                    <p id="errorModalKilo"></p>
+                    <button type="submit" class="btn-submit">Enviar Pedido</button>
+                </form>
             </div>
         </div>
     </div>
 
 <script th:src="@{/vendor/jquery/jquery-1.11.3.js}"></script>
 <script th:src="@{/vendor/materialize/js/materialize.js}"></script>
-<script th:src="@{/app.js}"></script>
+<script th:src="@{/home.js}"></script>
 </body>
 </html>

@@ -2,27 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c0597db-bee4-467d-8bf0-bb4a87aa601b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/controller/GustosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/controller/GustosController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/ABMGustos.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/ABMGustos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/updateGusto.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/updateGusto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/config/DataConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/config/DataConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/controller/ProductosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/controller/ProductosController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/dao/GustoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/uces/CopitoDeNieve/dao/GustoDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/CopitoDeNieve-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/CopitoDeNieve-1.0-SNAPSHOT.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/CopitoDeNieve-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/CopitoDeNieve-1.0-SNAPSHOT.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/CopitoDeNieve-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/CopitoDeNieve-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/CopitoDeNieve-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/CopitoDeNieve-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/CopitoDeNieve" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/CopitoDeNieve" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/CopitoDeNieve.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/CopitoDeNieve.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/Copito.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/Copito.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Copito.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/Copito.trace.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CopitoDeNieve.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/CopitoDeNieve.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CopitoDeNieve.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/CopitoDeNieve.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/config/DataConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/config/DataConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/controller/GustosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/controller/GustosController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/dao/GustoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/uces/CopitoDeNieve/dao/GustoDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/app.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/static/ABMGustos.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/ABMGustos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/deleteGusto.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/deleteGusto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/templates/updateGusto.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/updateGusto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/config/DataConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/config/DataConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/ABMGustos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/ABMGustos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/updateGusto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/updateGusto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/ProductosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/ProductosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -79,71 +103,77 @@
     <session id="1426507573">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="27" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="2" />
-          <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.25" value="3" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bat" value="1" />
-          <entry key="css" value="8" />
+          <entry key="css" value="13" />
           <entry key="db" value="1" />
-          <entry key="gradle" value="5" />
+          <entry key="gradle" value="11" />
           <entry key="gradlew" value="1" />
-          <entry key="html" value="40" />
-          <entry key="java" value="131" />
-          <entry key="js" value="8" />
+          <entry key="html" value="60" />
+          <entry key="java" value="193" />
+          <entry key="js" value="21" />
           <entry key="png" value="6" />
-          <entry key="properties" value="6" />
-          <entry key="xml" value="1" />
+          <entry key="properties" value="14" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="8" />
-          <entry key="Groovy" value="5" />
-          <entry key="HTML" value="40" />
+          <entry key="CSS" value="13" />
+          <entry key="Groovy" value="11" />
+          <entry key="HTML" value="60" />
           <entry key="Image" value="6" />
-          <entry key="JAVA" value="131" />
-          <entry key="JavaScript" value="8" />
+          <entry key="JAVA" value="193" />
+          <entry key="JavaScript" value="21" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="6" />
-          <entry key="XML" value="1" />
+          <entry key="Properties" value="14" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1323" />
+          <entry key="css" value="1831" />
           <entry key="dummy" value="40" />
-          <entry key="gradle" value="573" />
-          <entry key="html" value="8552" />
-          <entry key="java" value="15247" />
-          <entry key="js" value="2684" />
-          <entry key="properties" value="546" />
+          <entry key="gradle" value="713" />
+          <entry key="html" value="10507" />
+          <entry key="java" value="18059" />
+          <entry key="js" value="6661" />
+          <entry key="properties" value="668" />
           <entry key="txt" value="253" />
-          <entry key="xml" value="750" />
+          <entry key="xml" value="813" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1323" />
-          <entry key="Groovy" value="573" />
-          <entry key="HTML" value="8552" />
-          <entry key="JAVA" value="15247" />
-          <entry key="JavaScript" value="2684" />
+          <entry key="CSS" value="1831" />
+          <entry key="Groovy" value="713" />
+          <entry key="HTML" value="10507" />
+          <entry key="JAVA" value="18059" />
+          <entry key="JavaScript" value="6661" />
           <entry key="PLAIN_TEXT" value="293" />
-          <entry key="Properties" value="546" />
-          <entry key="XML" value="750" />
+          <entry key="Properties" value="668" />
+          <entry key="XML" value="813" />
         </counts>
       </usages-collector>
     </session>
@@ -151,10 +181,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="120">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/PedidoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,20 +201,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateGusto.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/MailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="360">
+              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/ABMGustos.js">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/pedido.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="210">
+              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
             </state>
           </provider>
         </entry>
@@ -187,8 +238,8 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -204,6 +255,8 @@
       <find>divider</find>
       <find>input</find>
       <find>modifi</find>
+      <find>helados</find>
+      <find>form</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -475,9 +528,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6160314547000" />
+        <entry key="$PROJECT_DIR$" value="6163243961000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1706102475" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="727633015" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2835056030" />
       </map>
@@ -679,54 +732,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/CopitoController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/icecream-details.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/favorites.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/category.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/categories.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/vendor/materialize/js/materialize.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Gustos.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/IceCreamController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/IngresarController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/helados.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/ingresar.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductosDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductosDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/app.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Categoria.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/data/GustosRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/config/DataConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/data/ProductosRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/data/HeladosRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Helado.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/gustos.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Gusto.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/app.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/app.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/form.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/ProductosController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Producto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/addGusto.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/deleteGusto.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/addGusto.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/updateGusto.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/ABMGustos.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Rol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/app.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/ProductosController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/pedido.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/app.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/JavaMailSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/config/DataConfig.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/app.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/PedidoController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/x.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/MailController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/x.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/pedido.html" />
       </list>
     </option>
   </component>
@@ -736,10 +792,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="455" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="62" />
     <option name="y" value="27" />
-    <option name="width" value="1465" />
+    <option name="width" value="1382" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -750,17 +806,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="CopitoDeNieve" type="b2602c69:ProjectViewProjectNode" />
               <item name="CopitoDeNieve" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="CopitoDeNieve" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CopitoDeNieve" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CopitoDeNieve" type="b2602c69:ProjectViewProjectNode" />
@@ -854,29 +907,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CopitoDeNieve" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CopitoDeNieve" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540998382353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543347255185" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -907,7 +949,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CopitoDeNieve [run]">
+  <component name="RunManager" selected="Gradle.CopitoDeNieve [bootRun]">
     <configuration name="CopitoDeNieve [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -926,7 +968,7 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="CopitoDeNieve [buildNeeded]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CopitoDeNieve [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -937,7 +979,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="buildNeeded" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -999,19 +1041,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.CopitoDeNieve [buildNeeded]" />
       <item itemvalue="Gradle.CopitoDeNieve [distZip]" />
       <item itemvalue="Gradle.CopitoDeNieve [compileJava]" />
       <item itemvalue="Gradle.CopitoDeNieve [bootRun]" />
       <item itemvalue="Gradle.CopitoDeNieve [run]" />
+      <item itemvalue="Gradle.CopitoDeNieve [build]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CopitoDeNieve [run]" />
         <item itemvalue="Gradle.CopitoDeNieve [bootRun]" />
+        <item itemvalue="Gradle.CopitoDeNieve [run]" />
+        <item itemvalue="Gradle.CopitoDeNieve [build]" />
         <item itemvalue="Gradle.CopitoDeNieve [compileJava]" />
         <item itemvalue="Gradle.CopitoDeNieve [distZip]" />
-        <item itemvalue="Gradle.CopitoDeNieve [buildNeeded]" />
       </list>
     </recent_temporary>
   </component>
@@ -1074,34 +1116,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="455" y="27" width="1465" height="1053" extended-state="1" />
+    <frame x="62" y="27" width="1382" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4951246" visible="true" weight="0.23467231" />
-      <window_info id="Structure" order="1" sideWeight="0.5048754" side_tool="true" weight="0.23114869" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4936351" visible="true" weight="0.25823355" />
+      <window_info id="Structure" order="1" sideWeight="0.50636494" side_tool="true" weight="0.21524663" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.312026" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2426869" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719395" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30769232" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41170096" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3261105" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32827735" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32719395" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32502708" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32756758" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3217768" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.26378378" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.25893825" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.028108109" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2583784" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24876674" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.6109937" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.5906542" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.329105" />
@@ -1158,232 +1200,137 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/Cucurucho.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/category.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Gustos.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ingresar.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateGusto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="463">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Role.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/UserService.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.4.3.RELEASE/eef79dce82a556a2948a1762f44576934a941ca1/spring-boot-1.4.3.RELEASE-sources.jar!/org/springframework/boot/bind/PropertiesConfigurationFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/package-info.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.1.0.Final/88a4d5e57ab2cb0fef12866c008c90fbb2ecde37/hibernate-core-5.1.0.Final-sources.jar!/org/hibernate/internal/SessionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="862" selection-start-line="862" selection-end-line="862" />
+        <state relative-caret-position="170">
+          <caret line="366" selection-start-line="366" selection-end-line="366" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/UserDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/UserServiceImpl.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.12.6.RELEASE/dd3c0c1b927a69cbedd196d0317895888bf023d7/spring-data-commons-1.12.6.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1391">
-          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+        <state relative-caret-position="315">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.191/75ff7980393538e5028dc4b9311c613c038918f3/h2-1.4.191-sources.jar!/org/h2/mvstore/MVStore.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Rol.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Usuario.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="2887" selection-start-line="2887" selection-end-line="2887" />
+        <state relative-caret-position="150">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.2.5.RELEASE/30e26c9f41924d5a91a33855f01b8c8028917cd5/spring-orm-4.2.5.RELEASE-sources.jar!/org/springframework/orm/hibernate5/LocalSessionFactoryBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/materialize/js/materialize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="10462" column="30" selection-start-line="10462" selection-start-column="30" selection-end-line="10462" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductosDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Categoria.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductosDao.java" />
-    <entry file="file://$PROJECT_DIR$/data/CopitoDeNieve.trace.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="68" column="61" lean-forward="true" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/data/ProductosRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/data/HeladosRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/data/GustosRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/CategoryDao.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.1.0.Final/88a4d5e57ab2cb0fef12866c008c90fbb2ecde37/hibernate-core-5.1.0.Final-sources.jar!/org/hibernate/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="397" column="56" lean-forward="true" selection-start-line="397" selection-start-column="56" selection-end-line="397" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="246" column="1" selection-start-line="246" selection-start-column="1" selection-end-line="246" selection-end-column="1" />
+        <state relative-caret-position="480">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Helado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Producto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addGusto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ingresar.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/2.1.5.RELEASE/5c6ed8b67535b03282f66f14723f2f16d5d8add1/thymeleaf-2.1.5.RELEASE-sources.jar!/org/thymeleaf/processor/attr/AbstractAttrProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/ABMGustos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.1.4.RELEASE/811534ddeb00c8026ae84d19f41c4ffc0dda0372/spring-security-web-4.1.4.RELEASE-sources.jar!/org/springframework/security/web/FilterChainProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="316" selection-start-line="316" selection-end-line="316" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/IngresarController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.5.RELEASE/6bd0fbc166bd348ab3f81e8b33a74679243cfaac/spring-webmvc-4.3.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="50" column="49" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="49" />
+        <state relative-caret-position="145">
+          <caret line="834" selection-start-line="834" selection-end-line="834" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.5.RELEASE/37ffcbcc73fff035658150baf6c0515700b2f511/spring-core-4.3.5.RELEASE-sources.jar!/org/springframework/core/MethodIntrospector.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.5.RELEASE/880796aaf6acaa40144c435d41a1b2ea509fa4ae/spring-web-4.3.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="205">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.6/758721dd7e0d44edbc1048c47a8b7c56e6ba1c9d/tomcat-embed-core-8.5.6-sources.jar!/org/apache/tomcat/util/net/SocketProcessorBase.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.5.RELEASE/6bd0fbc166bd348ab3f81e8b33a74679243cfaac/spring-webmvc-4.3.5.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/ProductosController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/gustos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/config/DataConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="145">
+          <caret line="969" selection-start-line="969" selection-end-line="969" />
         </state>
       </provider>
     </entry>
@@ -1394,73 +1341,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/GustoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/pedido.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state relative-caret-position="507">
+          <caret line="295" column="30" selection-start-line="295" selection-start-column="30" selection-end-line="295" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/Producto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/ProductoDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/model/JavaMailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/dao/GustoDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="420">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/config/DataConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/AppConfig.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addGusto.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/ProductosController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        <state relative-caret-position="255">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/GustosController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/ABMGustos.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/gustos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="120">
+          <caret line="92" column="39" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/x.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/deleteGusto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="360">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateGusto.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/service/ProductoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="120">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/PedidoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/x.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="152" column="61" lean-forward="true" selection-start-line="152" selection-start-column="61" selection-end-line="152" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/pedido.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uces/CopitoDeNieve/controller/MailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>

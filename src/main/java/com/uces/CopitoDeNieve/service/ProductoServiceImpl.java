@@ -25,8 +25,8 @@ public class ProductoServiceImpl implements ProductoService {
     }
 
     @Override
-    public List<Producto> findProductoByName(String name) {
-        return productoDao.findProductoByName(name);
+    public List<Producto> findAllProductosByName(String name) {
+        return productoDao.findAllProductosByName(name);
     }
 
     @Override

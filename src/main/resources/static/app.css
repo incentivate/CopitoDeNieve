@@ -181,14 +181,6 @@ nav ul li.active, nav ul li:hover {
     font-size: 22px;
 }
 
-.modal {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-
 .tastes{
   display: block;
   position: relative;
@@ -204,6 +196,14 @@ nav ul li.active, nav ul li:hover {
      width: 100%;
      font-weight: bold;
      text-size: 15px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .modal-title{
@@ -255,4 +255,43 @@ nav ul li.active, nav ul li:hover {
 
 /* -------------------------------------------------------------- */
 
+h6{
+    text-align:center;
+}
 
+.tabla{
+  width: 100%;
+}
+
+.tablaInput{
+  float: right;
+}
+
+.single-checkbox{
+    margin-right: 10px;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked{
+  position: inherit !important;
+  left: 50 !important;
+  visibility: inherit !important;
+}
+
+.btn-submit{
+    margin-top: 20px;
+    float: right;
+}
+
+#errorGustos{
+    color: red;
+    text-align: center;
+}
+
+#prodTitle{
+    text-align: center;
+}
+
+#tipoProducto{
+    text-align: center;
+    background-color: #D1B091;
+}

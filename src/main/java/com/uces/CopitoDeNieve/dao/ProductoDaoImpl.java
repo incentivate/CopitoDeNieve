@@ -30,7 +30,7 @@ public class ProductoDaoImpl implements ProductoDao {
     }
 
     @Override
-    public List<Producto> findProductoByName(String name) {
+    public List<Producto> findAllProductosByName(String name) {
 
         Session session = sessionFactory.openSession();
         List<Producto> productos = new ArrayList<>();

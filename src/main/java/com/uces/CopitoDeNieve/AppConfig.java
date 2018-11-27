@@ -1,8 +1,6 @@
 package com.uces.CopitoDeNieve;
 
-import com.uces.CopitoDeNieve.model.Gusto;
-import org.hibernate.Criteria;
-import org.hibernate.Session;
+
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -11,7 +9,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
-import java.util.List;
 
 @EnableAutoConfiguration
 @ComponentScan

@@ -24,7 +24,7 @@ public class GustosController {
         return "gustos";
     }
 
-    // Agregar un gusto (ADMIN)
+    // Guardar un gusto (ADMIN)
     @RequestMapping(value = "/gustos", method = RequestMethod.POST)
     public String addGusto(@ModelAttribute("gusto") Gusto gusto){
         gustoService.save(gusto);
